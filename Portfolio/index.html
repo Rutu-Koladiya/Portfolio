@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rutu Koladiya - Portfolio.</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fd5b1b4c3f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <span class="first">R</span><span class="name">utu.</span>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Rutu</span> <br />
+            Koladiya From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------About---------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="about-col-1">
+                    <img src="" alt="">
+                </div> -->
+          <div class="about-col-1">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Holla! I'm a web developer with a passion for creating responsive
+              and user-friendly websites. I am currently graduating in Computer
+              Engineering.<br />
+              Skilled in languages such as HTML, CSS, JavaScript, and modern
+              frameworks, I enjoy transforming ideas into functional, beautiful
+              websites. Always eager to stay updated with the latest tech trends
+              by parallelly growing and learning new things myself. Outside of
+              coding, I enjoy Art & Craft, Volunteering, Photography. Check out
+              my projects, and feel free to reach out to me!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Technical Skills:</span><br />HTML/CSS, JavaScript,
+                  C/C++, Java, PHP, DSA, Bootstrap, Tailwindcss, ReactJS
+                </li>
+                <li>
+                  <span>Soft Skills:</span> <br />Problem Solving, Time
+                  Management, Creativity, Negotiation, Team Work, Critical
+                  Thinking, Adaptability
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>06/2024 - Current</span> <br />Internship at CodSoft
+                </li>
+                <li>
+                  <span>05/2024 - 06/2024</span><br />Internship at Tech Elecon
+                  Pvt Ltd.
+                </li>
+                <li><span>2022 - Current</span><br />Volunteering in ISTE</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2021 - current</span> <br />BE from Madhuben & Bhanubhai
+                  Patel Institute of Technology Anand, Gujarat
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------Project---------------------- -->
+    <div id="project">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="project-list">
+          <div class="project">
+            <img src="https://www.pexels.com/photo/close-up-shot-of-keyboard-buttons-2882630/" alt="" />
+            <div class="layer">
+              <h3>Password Generator</h3>
+              <p>
+                "A user-friendly Password Generator built with React and Tailwind CSS, featuring secure and customizable password creation with a sleek, modern design."
+              </p>
+              <a href="https://github.com/Rutu-Koladiya/PasswordGenerator"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/projec-2.png" alt="" />
+            <div class="layer">
+              <h3>Flipping Card</h3>
+              <p>
+                
+              </p>
+              <a href="https://github.com/Rutu-Koladiya/Rock_Paper_Scissor"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/pro-1.jpg" alt="" />
+            <div class="layer">
+              <h3>Flipping Card</h3>
+              <p>
+                
+              </p>
+              <a href="https://github.com/Rutu-Koladiya/Flipping_Card"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ------------------------Contact---------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:ruturkoladiya@gmail.com">ruturkoladiya@gmail.com</a></p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 8780266972</p>
+            <div class="social-icons">
+              <a href="http://www.linkedin.com/in/rutu-koladiya"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Rutu-Koladiya"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="Rutu-R.-Koladiya.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <input type="text" name="Subject" placeholder="Subject">
+              <textarea name="Message" rows="6" placeholder="Youe Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>copyright © Rutu. Made with <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
